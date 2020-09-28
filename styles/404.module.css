@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
+
+.pagina_contenedor{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.pagina_contenedor h1{
+    margin-top: 5rem;
+}
+
+.pagina_contenedor p{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.error_container {
+  text-align: center;
+  font-size: 180px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  margin: 20px 15px;
+}
+.error_container > span {
+  display: inline-block;
+  line-height: 0.7;
+  position: relative;
+  color: #FFB485;
+}
+.error_container > span > span {
+  display: inline-block;
+  position: relative;
+}
+.error_container > span:nth-of-type(1) {
+  perspective: 1000px;
+  perspective-origin: 500% 50%;
+  color: #F0E395;
+}
+.error_container > span:nth-of-type(1) > span {
+  transform-origin: 50% 100% 0px;
+  transform: rotateX(0);
+  animation: easyoutelastic 8s infinite;
+}
+
+.error_container > span:nth-of-type(3) {
+  perspective: none;
+  perspective-origin: 50% 50%;
+  color: #D15C95;
+}
+.error_container > span:nth-of-type(3) > span {
+  transform-origin: 100% 100% 0px;
+  transform: rotate(0deg);
+  animation: rotatedrop 8s infinite;
+}
+@keyframes easyoutelastic {
+  0% {
+    transform: rotateX(0);
+  }
+  9% {
+    transform: rotateX(210deg);
+  }
+  13% {
+    transform: rotateX(150deg);
+  }
+  16% {
+    transform: rotateX(200deg);
+  }
+  18% {
+    transform: rotateX(170deg);
+  }
+  20% {
+    transform: rotateX(180deg);
+  }
+  60% {
+    transform: rotateX(180deg);
+  }
+  80% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes rotatedrop {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(30deg);
+  }
+  15% {
+    transform: rotate(90deg);
+  }
+  70% {
+    transform: rotate(90deg);
+  }
+  80% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotateX(0);
+  }
+}
+
+.link_container {
+  text-align: center;
+}
+.more_link {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background-color:#d1552f;
+    padding: 1.3rem;
+    border-radius: .3rem;
+    color: #fff;
+    display: inline-block;
+    margin-top: 7rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+:root{
+  --gris: #3d3d3d;
+  --gris2 : #6f6f6f;
+  --gris3: #d1d1d1;
+  --naranja: #d1552f;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  padding: 0 0 2rem 0;
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.listado-productos {
+  background-color: #f3f3f3;
+}
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+.bg-white {
+  background-color: #FFF;
+}

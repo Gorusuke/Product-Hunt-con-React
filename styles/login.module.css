@@ -1,0 +1,84 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor_formulario {
+    padding: 4rem 3rem;
+    max-width: 500px;
+    width: 95%;
+}
+  
+.h1 {
+    font-weight: 900;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.campo_formulario {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.campo_formulario:last-of-type {
+    margin: 0;
+}
+  
+.label {
+    flex: 0 0 100px;
+    font-weight: bold;
+}
+
+.input[type="password"],
+.input[type="email"], 
+.input[type="url"],
+.input[type="text"] {
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+  flex: 1;
+}
+
+.textarea{
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    flex: 1;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.fieldset{
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+
+.btn1 {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border-radius: .5rem;
+    border: none;
+    background-color:#d1552f;
+    color: white;
+    transition: background-color .3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
+.btn1:hover {
+    cursor: pointer;
+    background: #e94817;
+}
+
+.error{
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 1rem;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,118 @@
+.head {
+  border-bottom: 2px solid #e1e1e1;
+  padding: 1rem 0;
+}
+
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  
+}
+
+.logo{
+  color: #d1552f;
+  font-size: 4rem;
+  line-height: 0;
+  font-weight: 700;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.boton{
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #d1d1d1;
+  padding: .8rem 2rem;
+  margin-right: 1rem;
+  color: white;
+  background-color: #d1552f;
+}
+
+.boton:last-of-type{
+  margin-right: 0;
+}
+
+.boton:hover{
+  cursor: pointer;
+  background-color: #e94817;
+}
+
+.boton1{
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #d1d1d1;
+  padding: .8rem 2rem;
+  margin-right: 1rem;
+  color: black;
+  background-color: white;
+}
+
+.modificar{
+  display: flex;
+  align-items: center;
+}
+
+.parrafo{
+  margin-right: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.formulario{
+  position: relative;
+}
+
+.inputText{
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+  min-width: 300px;
+}
+
+.inputBoton{
+  height: 3rem;
+  width: 3rem;
+  display: block;
+  background-size: 4rem;
+  background-image: url('../public/Img/buscar.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 1rem;
+  top: 2px;
+  background-color: white;
+  border: none;
+  text-indent: -9999px;
+  padding: 0;
+}
+
+.inputBoton:hover{
+  cursor: pointer;
+}
+
+.inputBoton:focus{
+  outline: none;
+}
+
+.navegacion{
+  padding-left: 2rem;
+}
+
+.enlaces{
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  color: #6f6f6f;
+}
+
+.enlaces:last-of-type{
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px){
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
